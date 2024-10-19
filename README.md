@@ -65,6 +65,21 @@ from sklearn.svm import SVR
 from sklearn.metrics import mean_squared_error, r2_score
 ```
 
+## Exploratory Data Analysis:
+
+![image alt](https://github.com/Rwang0316/Golfer-Performance-and-Points-Prediction/blob/main/Media/heatmap.png)
+
+The heatmap above displays the correlations between the selected features and the target variables (Average Score and Points).
+
+High Negative Correlation with Average Score: Features like SG: Total (-0.95), SG: Putts (-0.88), and GIR (-0.78) show strong negative correlations with Average Score, indicating that as these values increase, a player’s score tends to decrease (which is desirable in golf).
+
+Strong Positive Correlation with Points: SG: Total (0.77), SG: ARG (0.63), and Fairway Percentage (0.49) are positively correlated with Points, showing that improved performance in these areas typically results in higher overall points.
+
+Moderate Correlations: Features such as Driving Distance and Scrambling show moderate correlations, contributing to a player's overall performance but not as strongly as the strokes gained metrics.
+
+Surprises: Golfers are often reminded by their coach how importance it is to hit the fairway in order to improve their score, however Fairway Percentage (-0.039) didn't have a strong or even moderate correlation with average scores.
+
+
 
 ## Result and Evaluation
 
