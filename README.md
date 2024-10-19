@@ -96,7 +96,7 @@ In this project, we utilized the [Kaggle PGA Tour](https://www.kaggle.com/datase
 
 ***Model Evaluation for Points Prediction***
 | Model | MSE     | R^2 | R^2 after Fine Tuning|
-| :-------- | :------- | :------------------------- | 
+| :-------- | :------- | :------------------------- | :----------------|
 | Linear Regression|98907.3588|0.5902|N/A|
 | Random Forest|91361.9298|0.6215|0.6423|
 | Gradient Boosting|82019.3557|0.6602|0.6032|
