@@ -85,6 +85,23 @@ Surprises: Golfers are often reminded by their coach how importance it is to hit
 
 In this project, we utilized the [Kaggle PGA Tour](https://www.kaggle.com/datasets/jmpark746/pga-tour-data-2010-2018) dataset to predict Points and Average Score of golfers using several machine learning models. After selecting relevant features based on performance metrics like Strokes Gained, Fairway Percentage, and Greens in Regulation (GIR), we trained and fine-tuned the models to optimize their performance.
 
+***Model Evaluation for Average Score Prediction***
+| Model | MSE     | R^2 |
+| :-------- | :------- | :------------------------- |
+| Linear Regression|0.0366|0.9300|
+| Random Forest|0.0501|0.9042|
+| Gradient Boosting|0.0537|0.8974|
+| Support Vector Regressor|0.0603|0.8847|
+
+***Model Evaluation for Points Prediction***
+| Model | MSE     | R^2 | R^2 after Fine Tuning|
+| :-------- | :------- | :------------------------- | 
+| Linear Regression|98907.3588|0.5902|N/A|
+| Random Forest|91361.9298|0.6215|0.6423|
+| Gradient Boosting|82019.3557|0.6602|0.6032|
+| Support Vector Regressor|232346.5447|0.0374|0.6189|
+
+
 Key findings include:
 
 - Linear Regression performed the best for predicting Average Score, with an R² score of 0.930.
